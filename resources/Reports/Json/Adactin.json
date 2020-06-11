@@ -1,0 +1,462 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-03T07:12:32.903Z",
+        "line": 11,
+        "name": "To Login Adactin website with valid credentials",
+        "description": "",
+        "id": "to-booking-the-room-and-get-the-order-number;to-login-adactin-website-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13909941500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User needs to land in the Adactin Home Page",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_land_in_the_Adactin_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 643398200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User needs to fill the \"Gowthami\" and \"Poorni\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gowthami\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Poorni\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Stepdefinition.user_needs_to_fill_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3967833700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User needs to click the login button",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31525600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify User is successfully get into the Adactin Hotel booking page",
+            "match": {
+              "location": "Stepdefinition.verify_User_is_successfully_get_into_the_Adactin_Hotel_booking_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-03T07:12:51.495Z",
+        "line": 13,
+        "name": "To Search Hotel in the Adactin website",
+        "description": "",
+        "id": "to-booking-the-room-and-get-the-order-number;to-search-hotel-in-the-adactin-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 241900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User needs to land in the Adactin Search page",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_land_in_the_Adactin_Search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 315634900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User needs to select Location",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151927200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User needs to select Hotels",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_Hotels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129044200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User needs to select Roomtype",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_Roomtype()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93344800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User needs to select NoOfRooms",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_NoOfRooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187717600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User needs to select NoOfAdult",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_NoOfAdult()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103194600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User needs to select NoOfChildren",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_NoOfChildren()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351026700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User needs to click the Search button",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_click_the_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18518200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify User is successfullt get into the Hotel details page",
+            "match": {
+              "location": "Stepdefinition.verify_User_is_successfullt_get_into_the_Hotel_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-03T07:12:53.853Z",
+        "line": 24,
+        "name": "To confirm the Hotel booking",
+        "description": "",
+        "id": "to-booking-the-room-and-get-the-order-number;to-confirm-the-hotel-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 234800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User needs to land in the Hotel details Page",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_land_in_the_Hotel_details_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183997800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User needs to click on the selected Hotel",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_click_on_the_selected_Hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1092379900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user needs to click Continue for proceeding further",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_click_Continue_for_proceeding_further()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23445700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify User is successfully get into the Payment page",
+            "match": {
+              "location": "Stepdefinition.verify_User_is_successfully_get_into_the_Payment_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-03T07:12:55.157Z",
+        "line": 30,
+        "name": "To Book the selected Hotel",
+        "description": "",
+        "id": "to-booking-the-room-and-get-the-order-number;to-book-the-selected-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 164100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User needs to land in the Hotel Payment Page",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_land_in_the_Hotel_Payment_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 321183300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User needs to fill firstname",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_fill_firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166646100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User needs to fill lastname",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_fill_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141234100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User needs to fill address",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_fill_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221512700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User needs to fill ccnum",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_fill_ccnum()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139731500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User needs to select cctype",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_cctype()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144514100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User needs to select ccmonth",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_ccmonth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130516700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User needs to select ccyear",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_select_ccyear()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105590600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User needs to fill cvv",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_fill_cvv()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8085312200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User needs to click the book button",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_click_the_book_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28799100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verify User is in the Booking Confirmation Page",
+            "match": {
+              "location": "Stepdefinition.verify_User_is_in_the_Booking_Confirmation_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-03T07:13:04.645Z",
+        "line": 43,
+        "name": "To print the Order no and Price",
+        "description": "",
+        "id": "to-booking-the-room-and-get-the-order-number;to-print-the-order-no-and-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 329700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User needs to land in the Booking confirmation page",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_land_in_the_Booking_confirmation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74301300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "print the Order no and price",
+            "match": {
+              "location": "Stepdefinition.print_the_Order_no_and_price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1416400000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User needs to click the logout button",
+            "match": {
+              "location": "Stepdefinition.user_needs_to_click_the_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Verify User is in logout page",
+            "match": {
+              "location": "Stepdefinition.verify_User_is_in_logout_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To booking the room and get the Order number",
+    "description": "",
+    "id": "to-booking-the-room-and-get-the-order-number",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Adactin.feature",
+    "tags": []
+  }
+]
